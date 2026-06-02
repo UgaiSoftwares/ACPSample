@@ -17,7 +17,7 @@ dependencies {
     implementation("ai.koog:agents-features-acp:1.0.0-beta")
     implementation("ai.koog:agents-features-trace:1.0.0")
     implementation("ai.koog:http-client-ktor:1.0.0")
-    runtimeOnly("org.slf4j:slf4j-simple:2.0.17")
+    runtimeOnly("org.slf4j:slf4j-simple:2.0.18")
 }
 
 testing {
