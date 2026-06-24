@@ -22,9 +22,8 @@ dependencies {
 
 testing {
     suites {
-        val test by getting(JvmTestSuite::class) {
-            useKotlinTest("2.3.20")
-        }
+        val test = getByName<JvmTestSuite>("test")
+        test.useKotlinTest("2.3.20")
     }
 }
 
