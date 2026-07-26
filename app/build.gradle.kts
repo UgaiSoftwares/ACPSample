@@ -15,8 +15,8 @@ dependencies {
     implementation("io.ktor:ktor-client-cio:3.5.1")
     implementation("io.ktor:ktor-server-cio:3.5.1")
     implementation("ai.koog:agents-features-acp:1.1.1-beta")
-    implementation("ai.koog:agents-features-trace:1.0.0")
-    implementation("ai.koog:http-client-ktor:1.0.0")
+    implementation("ai.koog:agents-features-trace:1.1.1")
+    implementation("ai.koog:http-client-ktor:1.1.1")
     runtimeOnly("org.slf4j:slf4j-simple:2.0.18")
 }
 
