@@ -14,9 +14,9 @@ dependencies {
     implementation("com.agentclientprotocol:acp-ktor-server:0.30.1")
     implementation("io.ktor:ktor-client-cio:3.6.0")
     implementation("io.ktor:ktor-server-cio:3.6.0")
-    implementation("ai.koog:agents-features-acp:1.2.0-beta")
-    implementation("ai.koog:agents-features-trace:1.2.0")
-    implementation("ai.koog:http-client-ktor:1.2.0")
+    implementation("ai.koog:agents-features-acp:1.3.0-beta")
+    implementation("ai.koog:agents-features-trace:1.3.0")
+    implementation("ai.koog:http-client-ktor:1.3.0")
     runtimeOnly("org.slf4j:slf4j-simple:2.0.19")
 }
 
