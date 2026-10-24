@@ -9,9 +9,9 @@ repositories {
 
 dependencies {
     implementation(libs.guava)
-    implementation("com.agentclientprotocol:acp:0.33.0")
-    implementation("com.agentclientprotocol:acp-ktor-client:0.33.0")
-    implementation("com.agentclientprotocol:acp-ktor-server:0.33.0")
+    implementation("com.agentclientprotocol:acp:0.34.0")
+    implementation("com.agentclientprotocol:acp-ktor-client:0.34.0")
+    implementation("com.agentclientprotocol:acp-ktor-server:0.34.0")
     implementation("io.ktor:ktor-client-cio:3.6.0")
     implementation("io.ktor:ktor-server-cio:3.6.0")
     implementation("ai.koog:agents-features-acp:1.3.0-beta")
